@@ -1,3 +1,14 @@
-.env
-
+# Ignore all virtual environments
 venv/
+backend/venv/
+
+# Ignore all .env files that may contain sensitive credentials
+.env
+backend/.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+backend/__pycache__/
