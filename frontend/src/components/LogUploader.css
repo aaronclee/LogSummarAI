@@ -1,0 +1,21 @@
+.log-uploader {
+    margin: 20px;
+  }
+  
+  .log-uploader input {
+    margin-right: 10px;
+  }
+  
+  .log-uploader button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .log-uploader button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
